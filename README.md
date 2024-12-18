@@ -14,7 +14,24 @@ This Python project provides a module for interacting with the ChatGPT model thr
 To start the program, use the following command:
 
 ```bash
-python your_script.py --convers 
+python your_script.py --convers
+```
 
 If you don't want to activate conversation mode, simply run:
 
+```bash
+python your_script.py
+```
+
+## Requirements
+
+- Python 3.x
+- OpenAI Python package (`openai`)
+  
+Make sure to replace the API key in the script with your own OpenAI API key.
+
+## Usage
+
+- The program will enter conversation mode, where you can input queries.
+- You can edit the last query using the "Up Arrow" key, and it will be processed again.
+- If an error occurs, it will be displayed as an error message.
